@@ -1,0 +1,51 @@
+"project_id","project_name","project_type","location","project_manager","budget","contract_value","project_status","priority_level"
+10001,Project_1,Industrial,Abuja,Chinonso,482780252,142277225,Delayed,Medium
+10002,Project_2,Residential,Ogun,Emmanuel,268095798,198427434,Delayed,High
+10003,Project_3,Commercial,Ogun,Folake,250836783,519456802,Active,Medium
+10004,Project_4,Infrastructure,Lagos,Folake,150956581,204629616,Active,High
+10005,Project_5,Industrial,Ogun,Olumide,446177353,200208358,Active,High
+10006,Project_6,Industrial,Lagos,Emmanuel,443546327,277080722,Delayed,Medium
+10007,Project_7,Industrial,Abuja,Folake,145123093,261654537,Delayed,Medium
+10008,Project_8,Industrial,Lagos,Olumide,207756676,157028041,Active,Medium
+10009,Project_9,Residential,Lagos,Adebayo,194947675,164189867,Delayed,High
+10010,Project_10,Commercial,Kano,Adebayo,117779148,115969793,Delayed,Medium
+10011,Project_11,Infrastructure,Kano,Folake,347435369,177191566,Delayed,Low
+10012,Project_12,Industrial,Kano,Chinonso,471146488,604176336,Completed,High
+10013,Project_13,Residential,Port Harcourt,Adebayo,319850849,590099697,Completed,High
+10014,Project_14,Commercial,Abuja,Folake,476209749,616442785,Completed,High
+10015,Project_15,Infrastructure,Ogun,Chinonso,276365525,469504320,Active,Low
+10016,Project_16,Infrastructure,Lagos,Emmanuel,344536862,425500877,Completed,High
+10017,Project_17,Infrastructure,Kano,Emmanuel,478871531,668138676,Delayed,High
+10018,Project_18,Residential,Lagos,Chinonso,493074360,308401402,Active,Medium
+10019,Project_19,Industrial,Kano,Olumide,228554675,273520540,Completed,High
+10020,Project_20,Infrastructure,Ogun,Chinonso,355920247,461112072,Active,Low
+10021,Project_21,Residential,Abuja,Chinonso,83416375,212595044,Delayed,High
+10022,Project_22,Residential,Ogun,Emmanuel,95162105,195436716,Completed,Low
+10023,Project_23,Industrial,Ogun,Folake,107556876,647511550,Completed,Medium
+10024,Project_24,Industrial,Ogun,Ngozi,80680140,308553395,Completed,Low
+10025,Project_25,Residential,Abuja,Adebayo,279461869,182116918,Delayed,High
+10026,Project_26,Residential,Ogun,Chinonso,244376612,252269610,Delayed,Low
+10027,Project_27,Industrial,Ogun,Emmanuel,123021127,367905884,Active,Medium
+10028,Project_28,Industrial,Kano,Emmanuel,428542165,95289607,Active,Low
+10029,Project_29,Infrastructure,Ogun,Ngozi,327423802,654754289,Active,Medium
+10030,Project_30,Infrastructure,Abuja,Ngozi,288368553,539389839,Completed,Medium
+10031,Project_31,Industrial,Ogun,Chinonso,427607398,544853376,Delayed,Low
+10032,Project_32,Residential,Abuja,Adebayo,227992591,333255634,Delayed,High
+10033,Project_33,Residential,Abuja,Olumide,321855403,646806503,Active,High
+10034,Project_34,Industrial,Abuja,Emmanuel,173044690,159601856,Active,High
+10035,Project_35,Commercial,Port Harcourt,Adebayo,386953919,136364844,Completed,High
+10036,Project_36,Residential,Ogun,Emmanuel,422463516,166170889,Active,Medium
+10037,Project_37,Residential,Port Harcourt,Olumide,336943632,393360942,Active,High
+10038,Project_38,Industrial,Port Harcourt,Adebayo,311988229,484227810,Delayed,Medium
+10039,Project_39,Commercial,Ogun,Folake,63519907,346759551,Completed,High
+10040,Project_40,Residential,Ogun,Adebayo,317673165,637975723,Delayed,Medium
+10041,Project_41,Industrial,Port Harcourt,Emmanuel,397236981,409426581,Active,Low
+10042,Project_42,Commercial,Lagos,Ngozi,196709207,110641040,Completed,Low
+10043,Project_43,Residential,Kano,Chinonso,358947935,448032489,Delayed,Medium
+10044,Project_44,Infrastructure,Ogun,Adebayo,82100513,271378187,Active,High
+10045,Project_45,Residential,Abuja,Ngozi,256508077,227406752,Active,Low
+10046,Project_46,Commercial,Abuja,Chinonso,475539496,280989340,Active,Low
+10047,Project_47,Infrastructure,Kano,Ngozi,240146164,105440363,Active,Low
+10048,Project_48,Infrastructure,Ogun,Emmanuel,371532379,368018781,Completed,Medium
+10049,Project_49,Residential,Kano,Ngozi,236472846,406347569,Delayed,Medium
+10050,Project_50,Infrastructure,Kano,Olumide,241227949,446838333,Active,High
