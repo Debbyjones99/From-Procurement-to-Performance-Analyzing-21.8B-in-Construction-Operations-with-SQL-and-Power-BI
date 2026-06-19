@@ -220,14 +220,15 @@ Key Insights
 - Contractors were primary cost drivers in 26 projects
 - Premium skilled workers concentrated in Masons, Electricians, Plumbers, Carpenters
 - Evidence of underutilization in workforce allocation (e.g., Worker 40217)
+  
 
 ## Supplier Performance
 <p></p>
-<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
+<img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/supplier_performance_dashboard_Onyewem.png" />
 <p></p>
+
 - 79 active suppliers with moderate performance score (60/100)
-- 36 high-risk suppliers identified
-- Frequent delivery delays (avg: 96.1%)
+- 36 high-risk suppliers identified Frequent delivery delays (avg: 96.1%)
 - No strong supplier concentration risk (<2% per supplier)
 
 
@@ -235,6 +236,7 @@ Key Insights
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/equipment_efficiency_dashboard_Onyewem.png" />
 <P></P>
+
 - Fuel: ₦380M | Equipment: ₦1.41B | Transport: ₦232M
 - Fuel usage remained proportional to equipment utilization (no major anomalies)
 - Equipment 5048 recorded highest operational cost impact
