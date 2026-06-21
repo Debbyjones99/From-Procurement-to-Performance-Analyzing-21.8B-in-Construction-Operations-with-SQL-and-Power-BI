@@ -185,7 +185,7 @@ Budget analysis further showed:
 
 ## Executive Summary
 <p>
-This project analyzes operational, procurement, workforce, supplier, equipment, and budget performance across 50 construction projects using SQL and Power BI, covering over ₦21.8 billion in total operational spending.
+This project analyzes operational, procurement, workforce, supplier, equipment, and budget performance across 50  building construction projects using SQL and Power BI, covering over ₦21.8 billion in total operational spending.
 <p></p>
 The analysis revealed significant budget overruns, procurement-driven cost concentration, supplier performance risks, workforce utilization inefficiencies, and project-level performance disparities. While fuel efficiency and supplier diversification remained relatively stable, procurement cost control and project governance emerged as the most critical areas for improvement.
 
@@ -272,7 +272,9 @@ Material costs contributed 86.2% of total operational expenses, highlighting pro
 7. Introduce stricter budget governance and forecasting processes to reduce widespread project cost overruns.
 
 ## Data Limitation 
-Analysis was based on historical data without real-time validation, and findings are correlation-based rather than experimentally tested. External market and operational factors were not included in the dataset.
+- Analysis was based on historical data without real-time validation, and findings are correlation-based rather than experimentally tested. External market and operational factors were not included in the dataset.
+- External factors such as market conditions, inflation, weather, regulatory changes, and economic conditions were not included in the dataset.
+- Results are dependent on the completeness and accuracy of the source data provided.
 
 ## Contact
 
