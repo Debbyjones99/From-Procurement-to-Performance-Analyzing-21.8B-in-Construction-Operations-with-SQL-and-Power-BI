@@ -28,7 +28,10 @@ The analysis focused on identifying cost drivers, detecting unusual spending pat
 
 ## Business Problem
 
-The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 building construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.#
+The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 building construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.
+
+## Business Ojectives
+To identify cost drivers, operational inefficiencies, supplier risks, and budget performance issues across 50 construction projects and provide data-driven recommendations for improving operational efficiency and project outcomes.
 
 ## Dataset Description
 
