@@ -1,4 +1,4 @@
-# From-Procurement-to-Performance-Analyzing-₦21.8B-in-Construction-Operations-with-SQL-and-Power-BI
+# Construction Operations, Procurement & Performance Analysis
 Conducted end-to-end operational analytics on ₦21.8B of construction project spending, leveraging SQL and Power BI to identify cost-saving opportunities, supplier risks, workforce inefficiencies, and project health concerns.
 
 ## Table of Contents
@@ -22,20 +22,28 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 
 ## Project Overview
 
-This project analyzes operational data from 50 building construction projects with over ₦21.8 billion in total spending. Using SQL for data analysis and Power BI for visualization, I evaluated project performance, procurement efficiency, supplier reliability, workforce utilization, equipment operations, and budget management.
+This project analyzes operational data from 50 building construction projects with over ₦21.8 billion in total spending. Using SQL (PostgreSQL) for analysis and Power BI for visualization, the project evaluates procurement efficiency, supplier performance, workforce utilization, equipment operations, project health, and budget management.
 
-The analysis focused on identifying cost drivers, detecting unusual spending patterns, assessing supplier and project risks, evaluating workforce efficiency, and uncovering opportunities for operational improvement and cost optimization. 
+The goal was to identify key cost drivers, detect operational inefficiencies, assess supplier and project risks, and uncover opportunities for cost optimization and performance improvement.
+
 
 ## Business Problem
 
-The organization needed visibility into project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across 50 building construction projects. The objective was to identify cost drivers, operational inefficiencies, supplier risks, and project health issues to support better decision-making.
+The organization lacked a centralized view of project performance, procurement spending, supplier risk, workforce utilization, equipment efficiency, and budget control across multiple construction projects.
+Without visibility into these areas, management faced challenges identifying cost overruns, operational inefficiencies, supplier-related risks, and underperforming projects.
+
 
 ## Business Ojectives
-To identify cost drivers, operational inefficiencies, supplier risks, and budget performance issues across 50 construction projects and provide data-driven recommendations for improving operational efficiency and project outcomes.
+* Identify major operational cost drivers across projects.
+* Evaluate supplier performance and procurement risks.
+* Assess workforce utilization and labor efficiency.
+* Monitor equipment and operational cost performance.
+* Detect budget overruns and project health issues.
+* Provide data-driven recommendations to improve operational efficiency and cost control.
+
 
 ## Dataset Description
-
-The dataset contains operational data from 50 building construction projects across multiple locations in Nigeria. It captures project activities, procurement transactions, workforce records, supplier performance, equipment operations, and budget information.
+The dataset contains operational data from 50 building construction projects across multiple locations in Nigeria.
 ### Dataset 
 * <a href=https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/tree/main/Dataset > Procure to performance dashboard</a>
 
@@ -46,19 +54,19 @@ The dataset contains operational data from 50 building construction projects acr
 * 500 Workers
 * 100 Suppliers
 * Multiple Equipment Assets
-* Material Procurement Transactions
+* Procurement Transactions
 * Budget and Operational Cost Records
 
-### Key Data Categories
+###Dataset Includes
 
-* Project Information (Project ID, Project Type, Location, Status)
-* Workforce Data (Workers, Trade, Skill Level, Labor Cost, Utilization)
-* Supplier Data (Supplier ID, Ratings, Delivery Delays, Lead Time)
-* Procurement Data (Material Categories, Quantity, Material Cost)
-* Equipment Data (Equipment Cost, Fuel Cost, Usage Days)
-* Financial Data (Budget Allocation, Operational Cost, Waste Cost)
+* Project Information
+* Workforce Records
+* Supplier Performance Data
+* Procurement Transactions
+* Equipment Operations
+* Financial & Budget Data
 
-The dataset supports analysis of project performance, cost drivers, supplier reliability, workforce efficiency, equipment utilization, and overall operational risk across construction projects.
+
 
 ## Tools & Methodology
 
@@ -69,77 +77,41 @@ The dataset supports analysis of project performance, cost drivers, supplier rel
 
 ### Methodology
 
-The analysis followed a structured end-to-end data analytics workflow:
+1. Data Cleaning & Preparation
+2. Data Modeling
+3. SQL Analysis
+4. Business Analysis
+5. Dashboard Development
 
-1. **Data Cleaning & Preparation**
-
-   * Handled missing values and inconsistencies in operational records
-   * Standardized financial and categorical fields across datasets
-
-2. **Data Modeling**
-
-   * Built a relational data model connecting projects, workforce, suppliers, equipment, and financial tables
-   * Established relationships using Project ID as the primary key
-
-3. **SQL Analysis**
-
-   * Performed aggregation to compute total costs, averages, and variances
-   * Identified outliers using threshold-based comparisons (e.g., 150% of averages)
-   * Conducted workforce, supplier, and project performance analysis using SQL to identify utilization gaps, supplier risks, budget overruns, and operational inefficiencies.
-
-4. **Business Analysis**
-
-   * Evaluated cost drivers across materials, labor, fuel, equipment, and transportation
-   * Assessed supplier performance and risk levels
-   * Analyzed workforce utilization and efficiency
-   * Measured budget variance and project health
-
-5. **Visualization (Power BI)**
-
-   * Built interactive dashboards for executive and operational insights
-   * Designed KPI cards, trend analysis visuals, and performance breakdowns
-   * Enabled drill-down analysis across projects, suppliers, and workforce
-
-The approach ensured data was transformed into actionable insights for operational decision-making.
- 
 ## Data Model
 
 The data model follows a **star schema structure** designed to support efficient analysis of construction operations.
 
 ### Fact Table
 
-* **Operations Fact Table**
+**Operations Fact Table**
 
-  * Contains transactional records for costs, usage, and performance metrics
-  * Includes: fuel cost, equipment cost, transportation cost, labor cost, and budget data
+Stores transactional records related to:
 
-### Dimension Tables
+* Material Costs
+* Labour Costs
+* Equipment Costs
+* Fuel Costs
+* Transportation Costs
 
-* **Project Dimension**
+**Dimension Tables**
 
-  * Project ID, project type, location, budget, project priority and status
+* Project Dimension
+* Workforce Dimension
+* Supplier Dimension
+* Equipment Dimension
+* Time Dimension
 
-* **Workforce Dimension**
+**Relationships**
 
-  * Worker ID, trade, skill level, wage rate, and employment type
+The Operations Fact Table serves as the central table.
 
-* **Supplier Dimension**
-
-  * Supplier ID, rating, lead time, and supplier status
-
-* **Equipment Dimension**
-
-  * Equipment ID, usage days, and equipment type
-
-* **Time Dimension **
-
-  * Year, month, and period-based breakdown for trend analysis
-
-### Relationships
-
-* The Operations Fact Table serves as the central table.
-* Dimension tables were connected using **Project ID, Worker ID, Supplier ID, Product ID, and Equipment ID**.
-* This model supports analysis of project performance, workforce utilization, procurement, suppliers, equipment, and costs.
+Dimension tables were connected using Project ID, Worker ID, Supplier ID, Equipment ID, and other relevant foreign keys to support analysis across projects, suppliers, workforce, equipment, and financial performance.
 
 
 ## SQL Analysis & Insights 
