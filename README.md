@@ -10,13 +10,12 @@ Conducted end-to-end operational analytics on ₦21.8B of construction project s
 - Data Model
 - SQL Analysis & Insights
 - Executive Dashboard
-- Workforce Analytics Dashboard
+- Workforce Performance Dashboard
 - Supplier & Procurement Performance Dashboard
 - Equipment Operations & Utilization Dashboard
 - Project Health Assessment
 - Key Findings
 - Strategic Recommendations
-- Dashboard Demonstration
 - Data Limitations
 - Contact
 
@@ -33,7 +32,7 @@ The organization lacked a centralized view of project performance, procurement s
 Without visibility into these areas, management faced challenges identifying cost overruns, operational inefficiencies, supplier-related risks, and underperforming projects.
 
 
-## Business Ojectives
+## Business Objectives
 * Identify major operational cost drivers across projects.
 * Evaluate supplier performance and procurement risks.
 * Assess workforce utilization and labor efficiency.
@@ -181,7 +180,7 @@ Key Insights
 - Equipment: ₦1.41B | Labour: ₦771.9M | Fuel: ₦380M | Transport: ₦232M
 - Procurement efficiency identified as the highest-impact cost-saving lever
 
-## Workforce Performance
+## Workforce Performance Dashboard
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/workforce_optimization_dashboard_Onyewem.png" />
 
@@ -191,7 +190,7 @@ Key Insights
 - Evidence of underutilization in workforce allocation (e.g., Worker 40217)
   
 
-## Supplier Performance
+## Supplier & Procurement Performance Dashboard
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/supplier_performance_dashboard_Onyewem.png" />
 <p></p>
@@ -201,7 +200,7 @@ Key Insights
 - No strong supplier concentration risk (<2% per supplier)
 
 
-## Equipment & Operations
+## Equipment Operations & Utilization Dashboard
 <p></p>
 <img width="622" height="372" alt="Executive_dashboard" src="https://github.com/Debbyjones99/From-Procurement-to-Performance-Analyzing-21.8B-in-Construction-Operations-with-SQL-and-Power-BI/blob/main/Dashboard_Screenshot/equipment_efficiency_dashboard_Onyewem.png" />
 <P></P>
